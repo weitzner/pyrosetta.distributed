@@ -1,0 +1,14 @@
+name: pyrosetta.distributed
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - ipykernel
+  - ipython
+  - pandas
+  - numpy
+  - scipy
+  - biopython
+  - seaborn
+  - pip:
+    - https://storage.googleapis.com/protein-design-ipd-public/wheelhouse/pyrosetta-2017.48.post0.dev0+85.fordas.dev.82aaf52af9d-cp35-cp35m-linux_x86_64.whl
